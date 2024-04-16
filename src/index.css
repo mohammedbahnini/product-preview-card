@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .display{
+    @apply font-fraunces font-bold text-[32px] leading-none;
+  }
+  .body{
+    @apply  text-sm leading-[23px] font-normal;
+  }
+  .btn-text{
+    @apply text-sm leading-normal ;
+  }
+  .body-overline{
+    @apply text-xs font-medium tracking-[5px];
+  }
+}
