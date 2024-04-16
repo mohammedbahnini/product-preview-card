@@ -6,9 +6,9 @@ function App() {
       <div className="container px-4 flex flex-col justify-center min-h-svh py-[28px] mx-auto">
         <div className="card rounded-[10px] overflow-hidden flex flex-col sm:flex-row  sm:max-w-[600px] mx-auto">
           <div className="sm:w-[50%]">
-            <picture>
+            <picture className="">
               <source media="(min-width : 640px)" srcSet="/image-product-desktop.jpg"  />
-              <img src="/image-product-mobile.jpg" alt="" />
+              <img src="/image-product-mobile.jpg" alt="" className="h-full" />
             </picture>
           </div>
 
